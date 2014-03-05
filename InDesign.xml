@@ -25,42 +25,18 @@ Go Back 	Ctrl+PageUp
 Go Forward 	Ctrl+PageDown
 
 #Type Menu
-Character 	Ctrl+T
 Paragraph 	Ctrl+M
-Tabs 	Shift+Ctrl+C
 Character Styles 	Shift+F11
-Paragraph Styles 	F11
-Create Outlines 	Shift+Ctrl+O
 ##Insert Special Character
-Auto Page Number 	Alt+Shift+Ctrl+N
-Bullet 	Alt+8
-Copyright 	Alt+G
 Ellipsis 	Alt+;
 Paragraph symbol 	Alt+7
-Registered trademark 	Alt+R
 Section symbol 	Alt+6
-Em dash 	Alt+Shift+-
-En dash 	Alt+-
-Discretionary hyphen 	Shift+Ctrl+-
-Nonbreaking hyphen 	Alt+Ctrl+-
-Double left quotation mark 	Alt+[
-Double right quotation mark 	Alt+Shift+[
-Single left quotation mark 	Alt+]
-Single right quotation mark 	Alt+Shift+]
-Tab 	Tab
 Right Indent Tab 	Shift+Tab
 Indent to Here 	Ctrl+\
 ##Insert White Space
-Em Space 	Shift+Ctrl+M
-En Space 	Shift+Ctrl+N
-Nonbreaking Space 	Alt+Ctrl+X
-Thin Space 	Alt+Shift+Ctrl+M
 ##Insert Break Character
-Column Break 	Num Enter
-Frame Break 	Shift+Num Enter
-Page Break 	Ctrl+Num Enter
+Page Break 	
 Forced Luine Break 	Shift+Enter
-Paragraph Return 	Enter
 Show Hidden Characters 	Alt+Ctrl+I
 
 #Object Menu
@@ -68,37 +44,21 @@ Show Hidden Characters 	Alt+Ctrl+I
 Transform Again 	Alt+Ctrl+3
 Transform Sequence Again 	Alt+Ctrl+4
 ##Arrange
-Bring to Front 	Shift+Ctrl+]
-Bring Forward 	Ctrl+]
-Send Backward 	Ctrl+[
-Send to Back 	Shift+Ctrl+[
-Group 	Ctrl+G
-Ungroup 	Shift+Ctrl+G
-Lock Postion 	Ctrl+L
 Unlock Position 	Alt+Ctrl+L
 Text Frame Options 	Ctrl+B
 ##Fitting
-Fit Content to Frame 	Alt+Ctrl+E
-Fit Frame to Content 	Alt+Ctrl+C
 Centre Content 	Shift+Ctrl+E
 Fit Content Proportionally 	Alt+Shift+Ctrl+E
-Drop Shadow 	Alt+Ctrl+M
 Clipping Path 	Alt+Shift+Ctrl+K
 ##Compound Paths
-Make 	Ctrl+8
 Release 	Alt+Ctrl+8
 
 #Table Menu
-Insert Table 	Alt+Shift+Ctrl+T
 Table Options > Table Setup 	Alt+Shift+Ctrl+B
 
 #View Menu
 Overprint Preview 	Alt+Shift+Ctrl+Y
-Zoom In 	Ctrl+ Num +
-Zoom Out 	Ctrl+ Num -
-Fit Page In Window 	Ctrl+0
 Fit Spread In Window 	Alt+Ctrl+0
-Actual Size 	Ctrl+1
 Entire Pasteboard 	Alt+Shift+Ctrl+0
 ##Display Performance
 Fast Display 	Shift+Ctrl+0
@@ -133,11 +93,9 @@ Swatches 	F5
 Text Wrap 	Alt+Ctrl+W
 Transparency 	Shift+F10
 ##Type & Tables
-Character 	Ctrl+T
 Character Styles 	Shift+F11
 Index 	Shift+F8
 Paragraph 	Ctrl+M
-Paragraph Styles 	F11
 Table 	Shift+F9
 Tabs 	Shift+Ctrl+T -->
 
@@ -153,7 +111,7 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="MeshDistortion"/>
     <function shortcut="Ctrl+Alt+N" name="NewFromDocumentTemplate"/>
     <function shortcut="" name="PathAlongPath"/>
-    <function shortcut="" name="PathConnect"/>
+		<function shortcut="Ctrl+8" name="PathConnect"/>
     <function shortcut="" name="PathCutter"/>
     <function shortcut="" name="PathFinder"/>
     <function shortcut="" name="PathStroker"/>
@@ -189,7 +147,7 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="Ctrl+F" name="editSearchReplace"/>
     <function shortcut="Ctrl+A" name="editSelectAll"/>
     <function shortcut="Ctrl+Alt+A" name="editSelectAllOnLayer"/>
-    <function shortcut="F3" name="editStyles"/>
+    <function shortcut="F11" name="editStyles"/>
     <function shortcut="Ctrl+Z" name="editUndoAction"/>
     <function shortcut="" name="extrasDeHyphenateText"/>
     <function shortcut="" name="extrasGenerateTableOfContents"/>
@@ -241,14 +199,14 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="insertFrame"/>
     <function shortcut="" name="insertGlyph"/>
     <function shortcut="" name="insertSampleText"/>
-    <function shortcut="" name="itemAdjustFrameToImage"/>
-    <function shortcut="" name="itemAdjustImageToFrame"/>
+		<function shortcut="Alt+Ctrl+C" name="itemAdjustFrameToImage"/>
+		<function shortcut="Alt+Ctrl+E" name="itemAdjustImageToFrame"/>
     <function shortcut="" name="itemAttachTextToPath"/>
     <function shortcut="" name="itemAttributes"/>
     <function shortcut="" name="itemCombinePolygons"/>
     <function shortcut="" name="itemConvertToBezierCurve"/>
     <function shortcut="" name="itemConvertToImageFrame"/>
-    <function shortcut="" name="itemConvertToOutlines"/>
+		<function shortcut="Shift+Ctrl+O" name="itemConvertToOutlines"/>
     <function shortcut="" name="itemConvertToPolygon"/>
     <function shortcut="" name="itemConvertToTextFrame"/>
     <function shortcut="" name="itemDelete"/>
@@ -262,8 +220,8 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="itemImageIsVisible"/>
     <function shortcut="Ctrl+L" name="itemLock"/>
     <function shortcut="Ctrl+Shift+L" name="itemLockSize"/>
-    <function shortcut="Ctrl+End" name="itemLower"/>
-    <function shortcut="End" name="itemLowerToBottom"/>
+		<function shortcut="Ctrl+[" name="itemLower"/>
+		<function shortcut="Shift+Ctrl+[" name="itemLowerToBottom"/>
 		<function shortcut="Alt+Ctrl+U" name="itemMulDuplicate"/>
     <function shortcut="" name="itemPDFAnnotationProps"/>
     <function shortcut="" name="itemPDFFieldProps"/>
@@ -273,12 +231,12 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="itemPreviewLow"/>
     <function shortcut="" name="itemPreviewNormal"/>
     <function shortcut="" name="itemPrintingEnabled"/>
-    <function shortcut="Ctrl+Home" name="itemRaise"/>
-    <function shortcut="Home" name="itemRaiseToTop"/>
+		<function shortcut="Ctrl+]" name="itemRaise"/>
+		<function shortcut="Shift+Ctrl+]" name="itemRaiseToTop"/>
     <function shortcut="" name="itemSendToPattern"/>
     <function shortcut="" name="itemShapeEdit"/>
     <function shortcut="" name="itemSplitPolygons"/>
-    <function shortcut="Ctrl+Shift+G" name="itemUngroup"/>
+		<function shortcut="Shift+Ctrl+G" name="itemUngroup"/>
     <function shortcut="" name="itemUpdateImage"/>
     <function shortcut="" name="pageApplyMasterPage"/>
     <function shortcut="" name="pageCopy"/>
@@ -290,12 +248,12 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="pageManageMargins"/>
     <function shortcut="" name="pageMove"/>
     <function shortcut="" name="showMouseCoordinates"/>
-    <function shortcut="F11" name="specialToggleAllGuides"/>
+    <function shortcut="" name="specialToggleAllGuides"/>
     <function shortcut="F12" name="specialToggleAllPalettes"/>
     <function shortcut="Ctrl+Shift+U" name="specialUnicodeSequenceBegin"/>
     <function shortcut="" name="stickyTools"/>
 		<function shortcut="Ctrl+Shift+E" name="styleImageEffects"/>
-    <function shortcut="" name="styleTabulators"/>
+		<function shortcut="Shift+Ctrl+C" name="styleTabulators"/>
     <function shortcut="" name="toolsActionHistory"/>
     <function shortcut="" name="toolsAlignDistribute"/>
     <function shortcut="" name="toolsBookmarks"/>
@@ -310,7 +268,7 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="P" name="toolsInsertPolygon"/>
     <function shortcut="D" name="toolsInsertRenderFrame"/>
     <function shortcut="S" name="toolsInsertShape"/>
-    <function shortcut="A" name="toolsInsertTableFrame"/>
+		<function shortcut="Alt+Shift+Ctrl+T" name="toolsInsertTableFrame"/>
     <function shortcut="T" name="toolsInsertTextFrame"/>
     <function shortcut="F6" name="toolsLayers"/>
     <function shortcut="N" name="toolsLinkTextFrame"/>
@@ -338,21 +296,21 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="typeEffectAllCaps"/>
     <function shortcut="" name="typeEffectNormal"/>
     <function shortcut="" name="typeEffectOutline"/>
-    <function shortcut="" name="typeEffectShadow"/>
+		<function shortcut="Alt+Ctrl+M" name="typeEffectShadow"/>
     <function shortcut="" name="typeEffectSmallCaps"/>
     <function shortcut="" name="typeEffectStrikeThrough"/>
     <function shortcut="" name="typeEffectSubscript"/>
     <function shortcut="" name="typeEffectSuperscript"/>
     <function shortcut="" name="typeEffectUnderline"/>
     <function shortcut="" name="typeEffectUnderlineWords"/>
-    <function shortcut="" name="unicodeBullet"/>
-    <function shortcut="Ctrl+Shift+Return" name="unicodeColumnBreak"/>
-    <function shortcut="" name="unicodeCopyRight"/>
-    <function shortcut="" name="unicodeDashEm"/>
-    <function shortcut="" name="unicodeDashEn"/>
+		<function shortcut="Alt+8" name="unicodeBullet"/>
+		<function shortcut="Num Enter" name="unicodeColumnBreak"/>
+		<function shortcut="Alt+G" name="unicodeCopyRight"/>
+		<function shortcut="Alt+Shift+-" name="unicodeDashEm"/>
+		<function shortcut="Alt+-" name="unicodeDashEn"/>
     <function shortcut="" name="unicodeDashFigure"/>
     <function shortcut="" name="unicodeDashQuotation"/>
-    <function shortcut="Ctrl+Return" name="unicodeFrameBreak"/>
+		<function shortcut="Shift+Num Enter" name="unicodeFrameBreak"/>
     <function shortcut="" name="unicodeLigature_ff"/>
     <function shortcut="" name="unicodeLigature_ffi"/>
     <function shortcut="" name="unicodeLigature_ffl"/>
@@ -362,46 +320,46 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="unicodeLigature_st"/>
     <function shortcut="" name="unicodeMidpoint"/>
     <function shortcut="Shift+Return" name="unicodeNewLine"/>
-    <function shortcut="Ctrl+Alt+-" name="unicodeNonBreakingHyphen"/>
-    <function shortcut="Ctrl+Space" name="unicodeNonBreakingSpace"/>
+		<function shortcut="Alt+Ctrl+-" name="unicodeNonBreakingHyphen"/>
+		<function shortcut="Alt+Ctrl+X" name="unicodeNonBreakingSpace"/>
     <function shortcut="" name="unicodePageCount"/>
-    <function shortcut="Ctrl+Alt+Shift+P" name="unicodePageNumber"/>
+		<function shortcut="Alt+Shift+Ctrl+N" name="unicodePageNumber"/>
     <function shortcut="" name="unicodeQuoteApostrophe"/>
     <function shortcut="" name="unicodeQuoteCJKDoubleLeft"/>
     <function shortcut="" name="unicodeQuoteCJKDoubleRight"/>
     <function shortcut="" name="unicodeQuoteCJKSingleLeft"/>
     <function shortcut="" name="unicodeQuoteCJKSingleRight"/>
-    <function shortcut="" name="unicodeQuoteDoubleLeft"/>
+		<function shortcut="Alt+[" name="unicodeQuoteDoubleLeft"/>
     <function shortcut="" name="unicodeQuoteDoubleLeftGuillemet"/>
     <function shortcut="" name="unicodeQuoteDoubleReversed"/>
-    <function shortcut="" name="unicodeQuoteDoubleRight"/>
+		<function shortcut="Alt+Shift+[" name="unicodeQuoteDoubleRight"/>
     <function shortcut="" name="unicodeQuoteDoubleRightGuillemet"/>
     <function shortcut="" name="unicodeQuoteLowDoubleComma"/>
     <function shortcut="" name="unicodeQuoteLowSingleComma"/>
-    <function shortcut="" name="unicodeQuoteSingleLeft"/>
+		<function shortcut="Alt+]" name="unicodeQuoteSingleLeft"/>
     <function shortcut="" name="unicodeQuoteSingleLeftGuillemet"/>
     <function shortcut="" name="unicodeQuoteSingleReversed"/>
-    <function shortcut="" name="unicodeQuoteSingleRight"/>
+		<function shortcut="Alt+Shift+]" name="unicodeQuoteSingleRight"/>
     <function shortcut="" name="unicodeQuoteSingleRightGuillemet"/>
     <function shortcut="" name="unicodeQuoteStraight"/>
-    <function shortcut="" name="unicodeRegdTM"/>
-    <function shortcut="Ctrl+Shift+-" name="unicodeSmartHyphen"/>
+		<function shortcut="Alt+R" name="unicodeRegdTM"/>
+		<function shortcut="Shift+Ctrl+-" name="unicodeSmartHyphen"/>
     <function shortcut="" name="unicodeSolidus"/>
-    <function shortcut="" name="unicodeSpaceEM"/>
-    <function shortcut="" name="unicodeSpaceEN"/>
+		<function shortcut="Shift+Ctrl+M" name="unicodeSpaceEM"/>
+		<function shortcut="Shift+Ctrl+N" name="unicodeSpaceEN"/>
     <function shortcut="" name="unicodeSpaceHair"/>
     <function shortcut="" name="unicodeSpaceMid"/>
     <function shortcut="" name="unicodeSpaceThick"/>
-    <function shortcut="" name="unicodeSpaceThin"/>
+		<function shortcut="Alt+Shift+Ctrl+M" name="unicodeSpaceThin"/>
     <function shortcut="" name="unicodeTM"/>
     <function shortcut="" name="unicodeZerowidthNonBreakingSpace"/>
     <function shortcut="" name="unicodeZerowidthSpace"/>
-    <function shortcut="Ctrl+1" name="viewFit100"/>
+		<function shortcut="Ctrl+1" name="viewFit100"/>
     <function shortcut="" name="viewFit200"/>
     <function shortcut="" name="viewFit400"/>
     <function shortcut="" name="viewFit50"/>
     <function shortcut="" name="viewFit75"/>
-    <function shortcut="Ctrl+0" name="viewFitInWindow"/>
+		<function shortcut="Ctrl+0" name="viewFitInWindow"/>
     <function shortcut="" name="viewFitPreview"/>
     <function shortcut="" name="viewFitWidth"/>
     <function shortcut="" name="viewRulerMode"/>
@@ -417,7 +375,7 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="viewShowMargins"/>
     <function shortcut="Ctrl+Shift+R" name="viewShowRulers"/>
     <function shortcut="" name="viewShowTextChain"/>
-    <function shortcut="" name="viewShowTextControls"/>
+		<function shortcut="Ctrl+T" name="viewShowTextControls"/>
     <function shortcut="" name="viewSnapToGrid"/>
     <function shortcut="" name="viewSnapToGuides"/>
     <function shortcut="" name="windowsCascade"/>
