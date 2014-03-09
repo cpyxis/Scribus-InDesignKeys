@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--InDesign shortcut keys
+<!--InDesign shortcut keys http://wiki.scribus.net/canvas/InDesign_Shortcuts
 
 Keys not yet assigned:
 
@@ -35,14 +35,10 @@ Right Indent Tab 	Shift+Tab
 Indent to Here 	Ctrl+\
 ##Insert White Space
 ##Insert Break Character
-Page Break 	
 Forced Luine Break 	Shift+Enter
 Show Hidden Characters 	Alt+Ctrl+I
 
 #Object Menu
-##Transform Again
-Transform Again 	Alt+Ctrl+3
-Transform Sequence Again 	Alt+Ctrl+4
 ##Arrange
 Unlock Position 	Alt+Ctrl+L
 Text Frame Options 	Ctrl+B
@@ -60,53 +56,33 @@ Table Options > Table Setup 	Alt+Shift+Ctrl+B
 Overprint Preview 	Alt+Shift+Ctrl+Y
 Fit Spread In Window 	Alt+Ctrl+0
 Entire Pasteboard 	Alt+Shift+Ctrl+0
-##Display Performance
-Fast Display 	Shift+Ctrl+0
-Typical Display 	Alt+Ctrl+Z
-High Quality Display 	Alt+Ctrl+H
-Structure > Show Structure 	Alt+Ctrl+1
-Show/Hide Text Threads 	Alt+Ctrl+Y
-Show/Hide Frame Edges 	Ctrl+H
-Show/Hide Rulers 	Ctrl+R
 ##Grids & Guides
-Show/Hide Guides 	Ctrl+;
 Lock Guides 	Alt+Ctrl+;
-Snap to Guides 	Shift+Ctrl+;
 Show Baseline Grid 	Alt+Ctrl+'
-Show Document Grid 	Ctrl+'
-Snap to Document Grid 	Shift+Ctrl+'
 
 #Window Menu
-Colour 	F6
 Control 	Alt+Ctrl+6
-Info 	F8
-Layers 	F7
 Links 	Shift+Ctrl+D
 ##Object & Layout
-Align 	Shift+F7
-Transform 	F9
 Object Styles 	Ctrl+F7
 Output > Seperations Preview 	Shift+F6
-Pages 	F12
 Stroke 	F10
-Swatches 	F5
 Text Wrap 	Alt+Ctrl+W
 Transparency 	Shift+F10
 ##Type & Tables
 Character Styles 	Shift+F11
 Index 	Shift+F8
 Paragraph 	Ctrl+M
-Table 	Shift+F9
-Tabs 	Shift+Ctrl+T -->
+-->
 
 <shortcutset name="InDesign">
-    <function shortcut="F7" name="AspellPlugin"/>
+    <function shortcut="Ctrl+I" name="AspellPlugin"/>
     <function shortcut="" name="Barcode Generator"/>
-    <function shortcut="" name="ColorWheel"/>
+		<function shortcut="F6" name="ColorWheel"/>
     <function shortcut="Ctrl+E" name="ExportAsImage"/>
     <function shortcut="" name="ExportAsSVG"/>
     <function shortcut="" name="FontPreview"/>
-    <function shortcut="Shift+F7" name="HunspellPlugin"/>
+		<function shortcut="Shift+Ctrl+I" name="HunspellPlugin"/>
     <function shortcut="" name="LensEffects"/>
     <function shortcut="" name="MeshDistortion"/>
     <function shortcut="Ctrl+Alt+N" name="NewFromDocumentTemplate"/>
@@ -119,7 +95,7 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="Ctrl+Alt+S" name="SaveAsDocumentTemplate"/>
     <function shortcut="" name="ShortWords"/>
     <function shortcut="" name="Subdivide"/>
-    <function shortcut="" name="TransformEffect"/>
+		<function shortcut="F9" name="TransformEffect"/>
     <function shortcut="" name="alignBlock"/>
     <function shortcut="" name="alignCenter"/>
     <function shortcut="" name="alignForced"/>
@@ -127,7 +103,7 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="alignRight"/>
     <function shortcut="" name="editActionMode"/>
     <function shortcut="" name="editClearContents"/>
-    <function shortcut="" name="editColors"/>
+		<function shortcut="F5" name="editColors"/>
     <function shortcut="Ctrl+C" name="editCopy"/>
     <function shortcut="Ctrl+Shift+C" name="editCopyContents"/>
     <function shortcut="Ctrl+X" name="editCut"/>
@@ -212,24 +188,24 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="itemDelete"/>
     <function shortcut="" name="itemDetachTextFromPath"/>
 		<function shortcut="Alt+Shift+Ctrl+D" name="itemDuplicate"/>
-    <function shortcut="" name="itemExtendedImageProperties"/>
+		<function shortcut="Alt+Ctrl+3" name="itemExtendedImageProperties"/>
     <function shortcut="" name="itemFlipH"/>
     <function shortcut="" name="itemFlipV"/>
     <function shortcut="Ctrl+G" name="itemGroup"/>
-    <function shortcut="" name="itemImageInfo"/>
+		<function shortcut="F8" name="itemImageInfo"/>
     <function shortcut="" name="itemImageIsVisible"/>
     <function shortcut="Ctrl+L" name="itemLock"/>
     <function shortcut="Ctrl+Shift+L" name="itemLockSize"/>
 		<function shortcut="Ctrl+[" name="itemLower"/>
 		<function shortcut="Shift+Ctrl+[" name="itemLowerToBottom"/>
-		<function shortcut="Alt+Ctrl+U" name="itemMulDuplicate"/>
+		<function shortcut="Alt+Ctrl+4" name="itemMulDuplicate"/>
     <function shortcut="" name="itemPDFAnnotationProps"/>
     <function shortcut="" name="itemPDFFieldProps"/>
     <function shortcut="" name="itemPDFIsAnnotation"/>
     <function shortcut="" name="itemPDFIsBookmark"/>
-    <function shortcut="" name="itemPreviewFull"/>
-    <function shortcut="" name="itemPreviewLow"/>
-    <function shortcut="" name="itemPreviewNormal"/>
+		<function shortcut="Alt+Ctrl+H" name="itemPreviewFull"/>
+		<function shortcut="Shift+Ctrl+0" name="itemPreviewLow"/>
+		<function shortcut="Alt+Ctrl+Z" name="itemPreviewNormal"/>
     <function shortcut="" name="itemPrintingEnabled"/>
 		<function shortcut="Ctrl+]" name="itemRaise"/>
 		<function shortcut="Shift+Ctrl+]" name="itemRaiseToTop"/>
@@ -249,13 +225,13 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="pageMove"/>
     <function shortcut="" name="showMouseCoordinates"/>
     <function shortcut="" name="specialToggleAllGuides"/>
-    <function shortcut="F12" name="specialToggleAllPalettes"/>
+    <function shortcut="?F12" name="specialToggleAllPalettes"/>
     <function shortcut="Ctrl+Shift+U" name="specialUnicodeSequenceBegin"/>
     <function shortcut="" name="stickyTools"/>
 		<function shortcut="Ctrl+Shift+E" name="styleImageEffects"/>
-		<function shortcut="Shift+Ctrl+C" name="styleTabulators"/>
+		<function shortcut="Shift+Ctrl+T" name="styleTabulators"/>
     <function shortcut="" name="toolsActionHistory"/>
-    <function shortcut="" name="toolsAlignDistribute"/>
+		<function shortcut="Shift+F7" name="toolsAlignDistribute"/>
     <function shortcut="" name="toolsBookmarks"/>
     <function shortcut="" name="toolsCopyProperties"/>
     <function shortcut="E" name="toolsEditContents"/>
@@ -268,12 +244,12 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="P" name="toolsInsertPolygon"/>
     <function shortcut="D" name="toolsInsertRenderFrame"/>
     <function shortcut="S" name="toolsInsertShape"/>
-		<function shortcut="Alt+Shift+Ctrl+T" name="toolsInsertTableFrame"/>
+		<function shortcut="Shift+F9" name="toolsInsertTableFrame"/>
     <function shortcut="T" name="toolsInsertTextFrame"/>
-    <function shortcut="F6" name="toolsLayers"/>
+		<function shortcut="F7" name="toolsLayers"/>
     <function shortcut="N" name="toolsLinkTextFrame"/>
     <function shortcut="" name="toolsMeasurements"/>
-    <function shortcut="" name="toolsOutline"/>
+		<function shortcut="Alt+Ctrl+1" name="toolsOutline"/>
     <function shortcut="" name="toolsPDFAnnotLink"/>
     <function shortcut="" name="toolsPDFAnnotText"/>
     <function shortcut="" name="toolsPDFCheckBox"/>
@@ -281,7 +257,7 @@ Tabs 	Shift+Ctrl+T -->
     <function shortcut="" name="toolsPDFListBox"/>
     <function shortcut="" name="toolsPDFPushButton"/>
     <function shortcut="" name="toolsPDFTextField"/>
-    <function shortcut="" name="toolsPages"/>
+		<function shortcut="F12" name="toolsPages"/>
 		<function shortcut="Alt+Shift+Ctrl+F" name="toolsPreflightVerifier"/>
     <function shortcut="F2" name="toolsProperties"/>
     <function shortcut="R" name="toolsRotate"/>
@@ -362,22 +338,22 @@ Tabs 	Shift+Ctrl+T -->
 		<function shortcut="Ctrl+0" name="viewFitInWindow"/>
     <function shortcut="" name="viewFitPreview"/>
     <function shortcut="" name="viewFitWidth"/>
-    <function shortcut="" name="viewRulerMode"/>
+		<function shortcut="Ctrl+R" name="viewRulerMode"/>
     <function shortcut="" name="viewShowBaseline"/>
     <function shortcut="" name="viewShowBleeds"/>
     <function shortcut="" name="viewShowColumnBorders"/>
     <function shortcut="Menu" name="viewShowContextMenu"/>
-    <function shortcut="" name="viewShowFrames"/>
-    <function shortcut="" name="viewShowGrid"/>
-    <function shortcut="" name="viewShowGuides"/>
+		<function shortcut="Ctrl+H" name="viewShowFrames"/>
+		<function shortcut="Ctrl+'" name="viewShowGrid"/>
+		<function shortcut="Ctrl+;" name="viewShowGuides"/>
     <function shortcut="" name="viewShowImages"/>
     <function shortcut="" name="viewShowLayerMarkers"/>
     <function shortcut="" name="viewShowMargins"/>
     <function shortcut="Ctrl+Shift+R" name="viewShowRulers"/>
-    <function shortcut="" name="viewShowTextChain"/>
+		<function shortcut="Alt+Ctrl+Y" name="viewShowTextChain"/>
 		<function shortcut="Ctrl+T" name="viewShowTextControls"/>
-    <function shortcut="" name="viewSnapToGrid"/>
-    <function shortcut="" name="viewSnapToGuides"/>
+		<function shortcut="Shift+Ctrl+'" name="viewSnapToGrid"/>
+		<function shortcut="Shift+Ctrl+;" name="viewSnapToGuides"/>
     <function shortcut="" name="windowsCascade"/>
     <function shortcut="" name="windowsTile"/>
 </shortcutset>
